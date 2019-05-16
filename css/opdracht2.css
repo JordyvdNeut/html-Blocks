@@ -1,0 +1,152 @@
+/*
+  Class:    4A7B
+  Name:     J. van der Neut
+  Purpose:  Template layout webpagina
+  
+  mm-dd-yyyy  Description
+  ----------  ----------------------------------
+  23-10-2017  Initial
+*/
+/***************************************************
+  *  Include the padding and border to all elements*
+****************************************************/
+*  {
+  box-sizing: border-box;
+}
+/*************************
+  *  Default setting     *
+  ************************/
+body  {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  font-size: 100%;
+  font-family: 'Calibri','Arial','Helvetica';
+  color: black;
+  text-align: center;
+}
+header {
+  height: 75px;
+  width: 100%;
+  background-color: blue;
+  color: black;
+}
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #007AC9;
+  color: black;
+  border: 1px solid black;
+}
+.leftbutton {
+  
+}
+.rightbutton {
+  
+}
+section {
+  height: 150px;
+  width: 60%;
+  border: 1px solid black;
+  text-align: center;
+  background-color: green;
+  float: left;
+}
+article {
+  height: 150px;
+  width: 60%;
+  border: 1px solid black;
+  text-align: center;
+  background-color: purple;
+  float: left;
+}
+aside {
+  border: 1px solid black;
+  height: 300px;
+  width: 40%;
+  overflow: auto;
+  background-color: lightgreen;
+  float: right;
+}
+footer {
+  border: 1px solid black;
+  height: 50px;
+  width: 100%;
+  background-color: red;
+  float: left;
+}
+a {
+  display: inline-block;
+  height: 100%;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #145564;
+  list-style-type: none;
+}
+a:hover {
+  color: white;
+  background-color: purple;
+
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.clearfix {
+ content: "";
+ clear: both;
+ display: table;
+ width: 100%;
+ height: 300px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {background-color: purple}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
